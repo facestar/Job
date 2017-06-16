@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2016-12-13 10:44:44 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.yndf.pojo.Company" table="COMPANY">
+        <id name="id" type="int">
+            <column name="id" />
+            <generator class="increment" />
+        </id>
+        <property name="uname" type="java.lang.String">
+            <column name="uname" />
+        </property>
+        <property name="cpassword" type="java.lang.String">
+            <column name="cpassword" />
+        </property>
+        <property name="cpostbox" type="java.lang.String">
+            <column name="cpostbox" />
+        </property>
+        <property name="address" type="java.lang.String">
+            <column name="address" />
+        </property>
+        <property name="linkmen" type="java.lang.String">
+            <column name="linkmen" />
+        </property>
+        <property name="cphone" type="java.lang.String">
+            <column name="cphone" />
+        </property>
+        <property name="cqq" type="java.lang.String">
+            <column name="cqq" />
+        </property>
+        <property name="ctype" type="java.lang.String">
+            <column name="ctype" />
+        </property>
+        <property name="introduce" type="java.lang.String">
+            <column name="introduce" />
+        </property>
+        <property name="web_url" type="java.lang.String">
+            <column name="web_url" />
+        </property>
+        <property name="picture" type="java.lang.String">
+            <column name="picture" />
+        </property>
+        <property name="state" type="java.lang.String">
+            <column name="state" />
+        </property>
+        <property name="jifen" column="jifen" type="int"></property>
+        
+         <property name="zhizhao" type="java.lang.String">
+            <column name="zhizhao" />
+        </property>
+         <property name="balance" type="int">
+            <column name="balance" />
+        </property>
+    </class>
+</hibernate-mapping>

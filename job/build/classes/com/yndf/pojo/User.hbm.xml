@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2016-12-13 10:44:44 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.yndf.pojo.User" table="USER">
+        <id name="id" type="int">
+            <column name="id" />
+            <generator class="increment" />
+        </id>
+        <property name="age" type="int">
+            <column name="age" />
+        </property>
+        <property name="uname" type="java.lang.String">
+            <column name="uname" />
+        </property>
+        <property name="upassword" type="java.lang.String">
+            <column name="upassword" />
+        </property>
+        <property name="name" type="java.lang.String">
+            <column name="name" />
+        </property>
+        <property name="IDCard" type="java.lang.String">
+            <column name="IDCard" />
+        </property>
+        <property name="upostbox" type="java.lang.String">
+            <column name="upostbox" />
+        </property>
+        <property name="school" type="java.lang.String">
+            <column name="school" />
+        </property>
+        <property name="area" type="java.lang.String">
+            <column name="area" />
+        </property>
+        <property name="sex" type="java.lang.String">
+            <column name="sex" />
+        </property>
+        <property name="study" type="java.lang.String">
+            <column name="study" />
+        </property>
+        <property name="uphone" type="java.lang.String">
+            <column name="uphone" />
+        </property>
+        <property name="uqq" type="java.lang.String">
+            <column name="uqq" />
+        </property>
+        <property name="picture" type="java.lang.String">
+            <column name="picture" />
+        </property>
+        <property name="jifen" column="jifen" type="int"></property>
+        <property name="balance" type="int">
+            <column name="balance" />
+        </property>
+        <property name="zt" type="int">
+            <column name="zt" />
+        </property>
+    </class>
+</hibernate-mapping>

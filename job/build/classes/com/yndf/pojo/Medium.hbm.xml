@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2016-12-13 10:44:44 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.yndf.pojo.Medium" table="MEDIUM">
+        <id name="id" type="int">
+            <column name="id" />
+            <generator class="increment" />
+        </id>
+        <property name="mname" type="java.lang.String">
+            <column name="mname" />
+        </property>
+        <property name="micon" type="java.lang.String">
+            <column name="micon" />
+        </property>
+        <property name="url" type="java.lang.String">
+            <column name="url" />
+        </property>
+    </class>
+</hibernate-mapping>

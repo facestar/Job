@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2016-12-13 10:44:44 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.yndf.pojo.Post" table="POST">
+        <id name="id" type="int">
+            <column name="id" />
+            <generator class="increment" />
+        </id>
+        <property name="ptitle" type="java.lang.String">
+            <column name="ptitle" />
+        </property>
+       
+        <property name="pcontent" type="java.lang.String">
+            <column name="pcontent" />
+        </property>
+        <property name="ptime" type="java.sql.Timestamp">
+            <column name="ptime" />
+        </property>
+       <property name="pname" type="java.lang.String" column="pname"></property>
+        
+       
+    </class>
+</hibernate-mapping>

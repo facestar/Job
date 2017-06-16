@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2016-12-14 9:48:32 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.yndf.pojo.Grade" table="GRADE">
+        <id name="id" type="int">
+            <column name="id" />
+            <generator class="increment" />
+        </id>
+        <property name="grade" type="int">
+            <column name="grade" />
+        </property>
+        <property name="user_id" type="int">
+            <column name="user_id" />
+        </property>
+        <property name="company_id" type="int">
+            <column name="company_id" />
+        </property>
+    </class>
+</hibernate-mapping>

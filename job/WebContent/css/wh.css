@@ -1,0 +1,15 @@
+
+.bg td{text-align: center;   font:15px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#3D84B0;}
+.bg td:hover{
+	background-color: #25A8DC;color: #0E7BFA;cursor: pointer;
+}
+.c3 td{
+	border:1px solid #D7D7D7;border-collapse: collapse;
+}
+.za td{
+	border:1px solid #D7D7D7;border-collapse: collapse;
+}
+.za {
+	border:1px solid #D7D7D7;border-collapse: collapse;
+}
+

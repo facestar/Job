@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2016-12-22 10:26:38 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.yndf.pojo.Commonweal" table="COMMONWEAL">
+        <id name="id" type="int">
+            <column name="id" />
+            <generator class="increment" />
+        </id>
+        <property name="wnumber" type="int">
+            <column name="wnumber" />
+        </property>
+        <property name="wtime" type="java.sql.Timestamp">
+            <column name="wtime" />
+        </property>
+        <property name="wtitle" type="java.lang.String">
+            <column name="wtitle" />
+        </property>
+        <property name="gyname" type="java.lang.String">
+            <column name="gyname" />
+        </property>
+        <property name="wtype" type="java.lang.String">
+            <column name="wtype" />
+        </property>
+        <property name="waddress" type="java.lang.String">
+            <column name="waddress" />
+        </property>
+        <property name="endtime" type="java.lang.String">
+            <column name="endtime" />
+        </property>
+        <property name="facetime" type="java.lang.String">
+            <column name="facetime" />
+        </property>
+        <property name="begindate" type="java.lang.String">
+            <column name="begindate" />
+        </property>
+        <property name="enddate" type="java.lang.String">
+            <column name="enddate" />
+        </property>
+        <property name="wsex" type="java.lang.String">
+            <column name="wsex" />
+        </property>
+        <property name="wheight" type="java.lang.String">
+            <column name="wheight" />
+        </property>
+        <property name="wstudy" type="java.lang.String">
+            <column name="wstudy" />
+        </property>
+        <property name="wother" type="java.lang.String">
+            <column name="wother" />
+        </property>
+        <property name="wintroduce" type="java.lang.String">
+            <column name="wintroduce" />
+        </property>
+        <property name="xianshi" type="java.lang.String">
+            <column name="xianshi" />
+        </property>
+        <property name="wstate" type="java.lang.String">
+            <column name="wstate" />
+        </property>
+    </class>
+</hibernate-mapping>

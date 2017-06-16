@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2016-12-26 10:22:45 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.yndf.pojo.Recharge" table="RECHARGE">
+        <id name="id" type="int">
+            <column name="id" />
+            <generator class="increment" />
+        </id>
+        <property name="cardnumber" type="int">
+            <column name="cardnumber" />
+        </property>
+        <property name="rpassword" type="java.lang.String">
+            <column name="rpassword" />
+        </property>
+        <property name="money" type="int">
+            <column name="money" />
+        </property>
+        <property name="rtime" type="java.sql.Timestamp">
+            <column name="rtime" />
+        </property>
+        <property name="user_id" type="int">
+            <column name="user_id" />
+        </property>
+        <property name="company_id" type="int">
+            <column name="company_id" />
+        </property>
+        <property name="balance" type="int">
+            <column name="balance" />
+        </property>
+    </class>
+</hibernate-mapping>

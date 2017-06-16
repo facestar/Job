@@ -1,0 +1,21 @@
+.l1{width: 1000px;height: 630px;margin: 0 auto;}
+.d1{margin-top: 1px;width: 150px;height: 33px;background-color: white;padding-top: 10px;text-align: center;}
+.d2{margin-top: 16px;width: 150px;height: 33px;background-color: white;padding-top: 10px;text-align: center;}
+.d3{margin-top: 16px;width: 150px;height: 33px;background-color: white;padding-top: 10px;text-align: center;}
+.d4{margin-top: 16px;width: 150px;height: 33px;background-color: white;padding-top: 10px;text-align: center;}
+.d5{margin-top: 16px;width: 150px;height: 33px;background-color: white;padding-top: 10px;text-align: center}
+.d6{margin-top: 16px;width: 150px;height: 33px;background-color: white;padding-top: 10px;text-align: center}
+.d7{margin-top: 16px;width: 150px;height: 33px;background-color: white;padding-top: 10px;text-align: center}
+.d8{margin-top: 16px;width: 150px;height: 33px;background-color: white;padding-top: 10px;text-align: center}
+ul{list-style: none;}
+.d1:hover{background-color: #1062AE;cursor: pointer;color: white; }
+.d2:hover{background-color: #1062AE;cursor: pointer;color: white; }
+.d3:hover{background-color: #1062AE;cursor: pointer;color: white; }
+.d4:hover{background-color: #1062AE;cursor: pointer;color: white; }
+.d5:hover{background-color: #1062AE;cursor: pointer;color: white; }
+.d6:hover{background-color: #1062AE;cursor: pointer;color: white; }
+.d7:hover{background-color: #1062AE;cursor: pointer;color: white; }
+.d8:hover{background-color: #1062AE;cursor: pointer;color: white; }
+.zongul{color: #2E74AB;font-size: 14px;font-weight:bold;font-family:"Microsoft YaHei";}
+.neirong{width: 760px;height: 6300px;margin-left: 240px;margin-top: -480px;}
+.r1{font-size: 22px;color: #666666;font-weight:bold;}

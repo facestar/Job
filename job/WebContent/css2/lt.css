@@ -1,0 +1,14 @@
+@CHARSET "UTF-8";
+.pp{font-size:18px;}
+.center table{border: 1px solid #ccc;border-collapse:collapse;width: 1000px;}
+.center table tr{border: 1px dashed #ccc;  }
+.center table td{border: 0px;height: 45px;font-size: 15px} 
+.zz td:hover{background-color: #25a8dc;}
+.z{border-collapse:collapse;}
+.z td{border: 1px solid #ccc;}
+.zt:hover{color: red;cursor: pointer;}
+.gg{border-collapse:collapse;}
+.gg td{border: 1px solid #ccc;}
+.nm table {font-size: 15px}
+.wr table {font-size: 15px}
+#c1{width: 400px;height: 20px;}

@@ -1,0 +1,36 @@
+.j1{width: 800px;height: 600px;border: 1px solid #ccc;margin-left: 200px;margin-top:-600px;}
+.j5{width: 800px;height: 600px;border: 1px solid #ccc;margin-left: 200px;margin-top:-600px;}
+.j1 table{border: 1px solid #ccc;border-collapse:collapse;}
+.j1 table tr{border: 1px dashed #ccc;  }
+.j1 table td{border: 0px;height: 45px;font-size: 15px} 
+.j2{width: 70px;}
+.j3{width: 200px;}
+.pinglun{width: 180px;height: 120px;border: 1px solid #ccc;border-radius: 5px; }
+.tijiao{margin-left: 120px;margin-top: 30px;width: 50px;height: 30px;}
+#pinglun:hover {
+	cursor: pointer;
+}
+.tijiao:HOVER {
+	cursor: pointer;
+}
+
+.neirong{border: 1px solid;width: 800px;height: 600px;margin-left: 200px;margin-top: -400px;}
+.g1{width: 800px;height: 45px;background-color: #F5F5F5;}
+.g1 div{float: left;}
+.g11{width: 100px;height:35px;background-color:#D5D5D5;text-align: center;padding-top: 10px;}
+.g12{width: 100px;height:35px;text-align: center;padding-top: 10px;}
+.g12:HOVER {
+	background-color: #D7D7D7;cursor: pointer;
+}
+.g11:HOVER {
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+

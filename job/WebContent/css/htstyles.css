@@ -1,0 +1,29 @@
+.h1{width: 440px;height: 250px;border: 4px solid #65CFF6;margin-left: 450px;margin-top: 250px;border-radius: 15px; background-color: #2C6099;font-family:"Microsoft YaHei"}
+.h2{border: 1px solid #65CFF6;border-radius: 4px;height: 30px;width: 240px;background-color:#8BAFDF;margin-top: 50px;margin-left: 90px;font-family:"Microsoft YaHei" }
+.h3{border: 1px solid #65CFF6;border-radius: 4px;height: 30px;width: 240px;background-color:#8BAFDF;margin-top: 20px;margin-left: 90px; font-family:"Microsoft YaHei"}
+.h4{width: 400px;height: 50px;margin-left: 500px;margin-top: -350px;font-size: 25px;color: white;font-weight:sold;font-family:"Microsoft YaHei"}
+.h5{margin-left: 150px;margin-top: 15px;background-color: #8BAFDF;width: 100px;height:30px;border-radius: 5px;font-family:"Microsoft YaHei"}
+.h10{height: 800px;background-color:#2374A3 ;border: 1px solid white;}
+.h11{width: 1000px;height: 704px;  margin-top: 50px;margin-left: 180px;background-color:#0BA9C4;border-radius: 7px;border: 1px solid white;}
+.h12{width: 1000px;height: 100px;}
+.h13{width: 170px;height: 602px;border: 1px solid #216FA2;}
+.h14{width: 829px;height: 593px;margin-left: 170px;margin-top: -603px;background-color: white;}
+.h15{margin-left: 100px;margin-top: -50px;font-family:"Microsoft YaHei";color: white;font-size:23px; }
+.h131{width: 165px;height: 120px;border-radius: 7px; border: 1px solid white;font-family:"Microsoft YaHei";color: white;font-size:15px;}
+.h132{margin-left: 70px;margin-top: -50px;}
+ul{list-style: none;}
+.y1{margin-top:30px;font-size:16px;font-family:"Microsoft YaHei"; }
+.y2{margin-top:20px;font-size:16px;font-family:"Microsoft YaHei";}
+.y3{margin-top:20px;font-size:16px;font-family:"Microsoft YaHei";}
+.y4{margin-top:20px;font-size:16px;font-family:"Microsoft YaHei";}
+.y5{margin-top:20px;font-size:16px;font-family:"Microsoft YaHei";}
+.y6{margin-top:20px;font-size:16px;font-family:"Microsoft YaHei";}
+ul li:hover{cursor: pointer;color: red;}
+.hezuo1{font-size: 16px;height: 40px;}
+.input1{width: 250px;height: 40px;}
+.input2{width: 250px;height: 40px;}
+.input3{width: 250px;height: 40px;}
+.tj{width: 50px;height: 30px;background-color:#008AD4;margin-left: 200px; }
+.xitong{width: 829px;height: 593px; }
+.gonggao{width: 70px;height: 30px;background-color: #ccc;margin-left: 300px;}
+
